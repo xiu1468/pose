@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="pose" name="rotate_to_goal" type="point_tf_broadcaster.py" output="screen"/>
+    
+  <node pkg="pose" name="listener_node" type="testspeechguide.py" output="screen"/>
+
+</launch>

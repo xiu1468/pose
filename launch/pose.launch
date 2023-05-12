@@ -1,0 +1,7 @@
+<launch>
+  <param name="co" value="-300" type="double"/>
+  <node pkg="pose" name="talker" type="pub_pose" output="screen"/>
+    
+  <node pkg="pose" name="listener" type="sub_pose" output="screen"/>
+
+</launch>
