@@ -17,7 +17,7 @@ def broadcaster():
     br = tf.TransformBroadcaster()
     rate = rospy.Rate(10)
 
-    goal_positions = [(6.182, -2.3, 0.0), (14.81, -2.53, 0.0), (12.43, -13.32, 0.0)]
+    goal_positions = [(7.19630, -0.147726, 0.0),(5.8945, -3.06678, 0.0), (15, -4, 0.0), (12.43, -13.32, 0.0)]
     while not rospy.is_shutdown():
         if car_pose is None:
             continue

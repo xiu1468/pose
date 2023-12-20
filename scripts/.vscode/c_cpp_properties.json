@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/xiu/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/xiu/catkin_ws/src/hector_slam/hector_geotiff/include/**",
+        "/home/xiu/catkin_ws/src/hector_slam/hector_map_tools/include/**",
+        "/home/xiu/catkin_ws/src/hector_slam/hector_mapping/include/**",
+        "/home/xiu/catkin_ws/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/xiu/catkin_ws/src/pose/include/**",
+        "/home/xiu/catkin_ws/src/robot_setup_tf/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

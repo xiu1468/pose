@@ -1,0 +1,7 @@
+<launch>
+  
+  <node pkg="pose" name="point_tf_broadcaster" type="point_tf_broadcaster" output="screen"/>
+    
+  <node pkg="pose" name="testspeechguide" type="testspeechguide" output="screen"/>
+
+</launch>
